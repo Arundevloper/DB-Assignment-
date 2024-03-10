@@ -7,5 +7,5 @@ The "Product_Category" table contains unique categories, each identified by a Ca
 Therefore, each product is associated with one category through the CategoryID foreign key relationship.
 
 ## 2 .How could you ensure that each product in the "Product" table has a valid category assigned to it?
-To guarantee that each product in the "Product" table is associated with a valid category, you can establish a foreign key constraint linking the "Product" table to the "Category" table. This constraint maintains referential integrity, ensuring that any category assigned to a product must be present in the "Category" table
+To guarantee that each product in the "Product" table is associated with a valid category, we can establish a foreign key constraint linking the "Product" table to the "Category" table. This constraint maintains referential integrity, ensuring that any category assigned to a product must be present in the "Category" table
 
